@@ -1,0 +1,57 @@
+
+// See https://aka.ms/new-console-template for more information
+using System;
+
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    internal class Program
+    {
+
+        public static double SomaDaMediaComMaiorNumero(double[] array)
+        {
+
+            double total = 0;
+            double maior = 0;
+            double soma = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+
+                Array.Sort(array);
+               
+                //maior numero
+                if (array[i] > maior)
+                {
+                    maior = array[i];
+                }
+
+                //soma
+                if (array[i] > soma)
+                {
+                    soma += array[i];
+                }
+
+                //media
+                if (array[i] > total)
+                {
+                    total += array[i] / array.Length;
+                }
+            }
+
+            return total;
+        }
+
+
+        static void Main(string[] args)
+        {
+            double[] array = new double[] { 0, 12, 5 };
+            //double[] array = { 1, 2, 3, 4};
+            SomaDaMediaComMaiorNumero(array);
+
+            double soma = SomaDaMediaComMaiorNumero(array) * array.Length;
+
+            Console.WriteLine("dado o array = [" + String.Join(",", array) + "]" + " o valor da média = " + string.Format("{0:0.0000}", SomaDaMediaComMaiorNumero(array))  + " o maior número = " + array[array.Length - 1] + " soma = " + soma);
+
+        }
+    }
+}
