@@ -1,0 +1,54 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Locale;
+
+public class Main {
+
+    /*
+    * Projeto feito em Java por Rodrigo de Oliveira dos Santos
+    */
+
+    public static double SomaDaMediaComMaiorNumero(double[] array){
+
+        double total = 0;
+        double maior = 0;
+        double soma = 0;
+
+        for (int i = 0; i < array.length; i++) {
+
+            Arrays.sort(array);
+
+            //maior numero
+            if (array[i] > maior) {
+                maior = array[i];
+            }
+
+            //soma
+            if (array[i] > soma) {
+                soma += array[i];
+            }
+
+            //media
+            if (array[i] > total) {
+                total += array[i] / array.length;
+            }
+        }
+
+        return total;
+    }
+
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+
+        double[] array = new double[]{0, 12, 5};
+       //double[] array = { 1, 2, 3, 4};
+        SomaDaMediaComMaiorNumero(array);
+
+        double soma = SomaDaMediaComMaiorNumero(array ) * array.length;
+
+      System.out.print("dado o array=" +  Arrays.toString(array) +
+        " o valor da média = " +  String.format("%.4f", SomaDaMediaComMaiorNumero(array )) + " o maior número = " + array[array.length - 1]  + "soma = " + soma);
+
+    }
+}
