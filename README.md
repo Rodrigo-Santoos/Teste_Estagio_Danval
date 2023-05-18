@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https://github.com/Rodrigo-Santoos/API-ficha-de-Pacientes/blob/main/imagens/logoJava.png"  width="150" >
+<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png"  width="150" >
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_line_logo_icon_146579.png"  width="150" >
+  
 
 </div>
 
