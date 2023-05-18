@@ -1,12 +1,10 @@
 <div align="center">
-<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png"  width="150" >
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"  width="150" >
 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_line_logo_icon_146579.png"  width="150" >
-  
-
 </div>
 
 # Teste de Estagio Danval Indústria e Comércio Ltda
-Testes do processo Seletivo da Danval
+## O teste 03 foi feito em C# e Java, o java foi mais facil pois é a linguagem que tenho mais afinidade, por favor qualquer erro que encontrar me perdoa, pretendo atualizar com o tempo 😄
 
 ### 📋 Enuciado
 
@@ -25,6 +23,7 @@ Tabela [Pessoas]: [PessoaID] [Nome] [Idade] [EnderecoID]
 Tabela [Enderecos]: [ID] [Rua] [Numero] [Cidade] [Estado] [Pais]
 Dadas as tabelas acima e considerando que o campo [EnderecoID] da tabela [Pessoas] é não nulo e faz
 referência à coluna [ID] da tabela [Enderecos], escreva um comando SQL que:
+
 a) insira um registro na tabela [Pessoas] que tenha o campo [EnderecoID] igual 65 (não é preciso inserir um
 valor para a coluna [PessoaID]);
 b) atualize o campo [Idade] da tabela [Pessoas] para 20 onde o valor da coluna [PessoaID] seja igual 123;
@@ -49,20 +48,19 @@ public static double SomaDaMediaComMaiorNumero(double[] array)
 
 public static int Func()
 {
-int a = 5;
-int c = 10;
-int[] x = new int[1];
-for (int i = 0; i < c; i++)
-{
-if (a == i)
-{
-a = x.Length;
-}
-else
-{
-return a;
-}
-}
-return -1;
+    int a = 5;
+    int c = 10;
+    int[] x = new int[1];
+    for (int i = 0; i < c; i++){
+      if (a == i)
+      {
+      a = x.Length;
+      }
+      else
+      {
+      return a;
+      }
+    }
+    return -1;
 ```
 
