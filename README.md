@@ -10,7 +10,38 @@ O teste 03 foi feito em C# e Java, o java foi um pouco mais facil pois é a ling
 afinidade, por favor qualquer erro que encontrar me perdoa, pretendo melhorar com o tempo 😄
 
 ```
-### 📋 Enuciado
+### 📋 Pré-requisitos 
+
+```
+2) TESTE DE SQL
+Ter o Mysql 8.0 ou superior Instalado
+
+3) TESTE DE PROGRAMAÇÃO E LÓGICA
+Se for Java: Ter o Java 17 instalado.
+Se for C#: .NET instalado
+```
+
+### 💻 Download Necessários 
+## Mysql
+- Mysql Workbeach --> https://www.mysql.com/products/workbench/ <br>
+- Mysql --> https://dev.mysql.com/downloads/installer/  | Docker image --> https://hub.docker.com/_/mysql <br>
+- Docker Download --> https://www.docker.com/products/docker-desktop  (Opcional) <br>
+- JAVA JDK --> https://www.oracle.com/java/technologies/downloads/ <br>
+
+
+### 📚 IDE´S
+## Java
+- Eclipse --> https://www.eclipse.org/downloads/ <br>
+- Intellij --> https://www.jetbrains.com/pt-br/idea/ <br>
+- Netbeans --> https://netbeans.apache.org/download/index.html <br>
+- SpringToolSuite4 --> https://spring.io/tools
+
+## C#
+- Visual Studio --> https://visualstudio.microsoft.com/pt-br/vs/older-downloads/ <br>
+
+##
+
+### 🚀 O Desafio
 
 ```
 1) TESTE INGLÊS
@@ -68,3 +99,7 @@ public static int Func()
     return -1;
 ```
 
+
+## ✒️ Desenvolvido
+
+* **Rodrigo Oliveira** - [Rodrigo Oliveira](https://github.com/Rodrigo-Santoos)
