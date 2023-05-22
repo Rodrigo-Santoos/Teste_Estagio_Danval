@@ -14,11 +14,11 @@ afinidade, por favor qualquer erro que encontrar me perdoa, pretendo melhorar co
 
 ```
 2) TESTE DE SQL
-Ter o Mysql 8.0 ou superior Instalado
+Ter o Mysql 8.0 ou superior Instalado.
 
 3) TESTE DE PROGRAMAÇÃO E LÓGICA
 Se for Java: Ter o Java 17 instalado.
-Se for C#: .NET instalado
+Se for C#: .NET instalado.
 ```
 
 ### 💻 Download Necessários 
@@ -39,7 +39,7 @@ Se for C#: .NET instalado
 ## C#
 - Visual Studio --> https://visualstudio.microsoft.com/pt-br/vs/older-downloads/ <br>
 
-##
+
 
 ### 🚀 O Desafio
 
@@ -98,7 +98,6 @@ public static int Func()
     }
     return -1;
 ```
-
 
 ## ✒️ Desenvolvido
 
