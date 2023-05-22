@@ -7,7 +7,7 @@
 ### 📌Aviso
 ```
 O teste 03 foi feito em C# e Java, o java foi um pouco mais facil pois é a linguagem que tenho mais 
-afinidade, por favor qualquer erro que encontrar me perdoa, pretendo atualizar com o tempo 😄
+afinidade, por favor qualquer erro que encontrar me perdoa, pretendo melhorar com o tempo 😄
 
 ```
 ### 📋 Enuciado
