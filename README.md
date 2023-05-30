@@ -39,8 +39,6 @@ Se for C#: .NET instalado.
 ## C#
 - Visual Studio --> https://visualstudio.microsoft.com/pt-br/vs/older-downloads/ <br>
 
-
-
 ### 🚀 O Desafio
 
 ```
@@ -97,6 +95,35 @@ public static int Func()
       }
     }
     return -1;
+
+
+```
+### 🔧 Execução
+
+Para acessar a aplicação :
+```
+Faça o download ou clone do repositório - [Rodrigo](https://github.com/Rodrigo-Santoos)
+e coloque no local de sua escolha.
+```
+![git](https://github.com/Rodrigo-Santoos/Desafio-Academia-Capgemini-2-Parte/blob/main/Capturar.PNG)
+
+###  2) TESTE DE SQL 
+```
+Na pasta 2) TESTE DE SQL possui 2 arquivos, documento .txt e .sql
+
+O arquivo .txt voce pode copiar tudo e colocar na Query do Mysql e execultar linha por linha.
+
+O arquivo .sql pode ser aberto direto no Mysql, vai no canto superior esquerdo em [File] --> [Open SQL Script], automaticamente 
+o arquivo sera carregado e o codigo estara nele
+```
+
+###  3) TESTE DE PROGRAMAÇÃO E LÓGICA
+```
+Na pasta 3) TESTE DE PROGRAMAÇÃO E LÓGICA possui 2 arquivos .txt, um em java e C#.
+
+O arquivo teste03-C#.txt copie tudo e cole no Visual Studio ou a sua IDE de preferencia e execulte a aplicaçao.
+
+O arquivo teste03-java.txt copie tudo e cola no Intelij ou a sua IDE de preferencia e execulte a aplicaçao.
 ```
 
 ## ✒️ Desenvolvido
