@@ -107,7 +107,7 @@ e coloque no local de sua escolha.
 ```
 ![git](https://github.com/Rodrigo-Santoos/Desafio-Academia-Capgemini-2-Parte/blob/main/Capturar.PNG)
 
-###  2) TESTE DE SQL 
+### 🗄️ 2) TESTE DE SQL 
 ```
 Na pasta 2) TESTE DE SQL possui 2 arquivos, documento .txt e .sql
 
@@ -117,7 +117,7 @@ O arquivo .sql pode ser aberto direto no Mysql, vai no canto superior esquerdo e
 o arquivo sera carregado e o codigo estara nele
 ```
 
-###  3) TESTE DE PROGRAMAÇÃO E LÓGICA
+### 📓  3) TESTE DE PROGRAMAÇÃO E LÓGICA
 ```
 Na pasta 3) TESTE DE PROGRAMAÇÃO E LÓGICA possui 2 arquivos .txt, um em java e C#.
 
