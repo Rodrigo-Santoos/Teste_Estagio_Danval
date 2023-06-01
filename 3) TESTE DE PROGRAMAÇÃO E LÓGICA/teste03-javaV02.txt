@@ -1,0 +1,45 @@
+import java.util.Arrays;
+
+public class Versao01 {
+
+    public static void main(String[] args) {
+
+        double[] arrayValor = new double[]{0, 12, 5};
+
+        System.out.println(TudoNoMetodo(arrayValor));
+    }
+
+    //-------------------------------------------------------------------
+    //metodo que tem tudo
+    public static String TudoNoMetodo(double[] tudo){
+
+        double total = 0;
+        double maior = 0;
+        double soma = 0;
+
+        for (int i = 0; i < tudo.length; i++) {
+
+            //organizando o array em ordem crescente
+            Arrays.sort(tudo);
+
+            //maior numero
+            if (tudo[i] > maior) {
+                maior = tudo[i];
+            }
+
+            //soma dos numeros
+            if (tudo[i] > soma) {
+                soma += tudo[i];
+            }
+
+            //media
+            if (tudo[i] > total) {
+                total += tudo[i] / tudo.length;
+            }
+        }
+
+        return "dado o array=" +  Arrays.toString(tudo) +
+                " o valor da média = " +  String.format("%.4f", total)
+                + " o maior número = " + maior  + " soma de tudo = " + soma;
+    }
+}
